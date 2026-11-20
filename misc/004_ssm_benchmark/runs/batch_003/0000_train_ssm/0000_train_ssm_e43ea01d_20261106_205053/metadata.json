@@ -1,0 +1,14 @@
+{
+    "version": "1.0",
+    "run_id": "0000_train_ssm_e43ea01d_20261106_205053",
+    "name": "0000_train_ssm",
+    "fingerprint": "e43ea01d9558",
+    "status": "complete",
+    "created_at": "2026-11-06 20:50:53",
+    "updated_at": "2026-11-06 20:50:59",
+    "tags": [
+        "train",
+        "ssm"
+    ],
+    "failure_reason": null
+}

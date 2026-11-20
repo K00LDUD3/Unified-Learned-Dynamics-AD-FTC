@@ -1,0 +1,37 @@
+{
+  "tracking_error": {
+    "n_degraded": 6,
+    "detected": 0,
+    "mean_latency": null,
+    "false_alarms_healthy": 1,
+    "detected_before_boundary": 0
+  },
+  "model_residual": {
+    "n_degraded": 6,
+    "detected": 0,
+    "mean_latency": null,
+    "false_alarms_healthy": 0,
+    "detected_before_boundary": 0
+  },
+  "cusum": {
+    "n_degraded": 6,
+    "detected": 0,
+    "mean_latency": null,
+    "false_alarms_healthy": 1,
+    "detected_before_boundary": 0
+  },
+  "ewma": {
+    "n_degraded": 6,
+    "detected": 4,
+    "mean_latency": 0.3050000000000477,
+    "false_alarms_healthy": 0,
+    "detected_before_boundary": 0
+  },
+  "ssm": {
+    "n_degraded": 6,
+    "detected": 0,
+    "mean_latency": null,
+    "false_alarms_healthy": 1,
+    "detected_before_boundary": 0
+  }
+}

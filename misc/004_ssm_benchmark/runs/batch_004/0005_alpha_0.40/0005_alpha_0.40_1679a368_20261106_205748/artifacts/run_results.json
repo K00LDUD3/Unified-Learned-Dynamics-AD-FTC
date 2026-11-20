@@ -1,0 +1,62 @@
+[
+  {
+    "detector": "tracking_error",
+    "cross_time": 30.04,
+    "fired_after_fault": true,
+    "latency": 0.03999999999999915,
+    "false_alarm": false,
+    "margin_at_cross": 0.7787823941921739,
+    "boundary_time": 35.11,
+    "detected_before_boundary": true,
+    "alpha": 0.4,
+    "run": "0005_alpha_0.40"
+  },
+  {
+    "detector": "model_residual",
+    "cross_time": 30.34,
+    "fired_after_fault": true,
+    "latency": 0.33999999999999986,
+    "false_alarm": false,
+    "margin_at_cross": 0.7400696370238062,
+    "boundary_time": 35.11,
+    "detected_before_boundary": true,
+    "alpha": 0.4,
+    "run": "0005_alpha_0.40"
+  },
+  {
+    "detector": "cusum",
+    "cross_time": 30.34,
+    "fired_after_fault": true,
+    "latency": 0.33999999999999986,
+    "false_alarm": false,
+    "margin_at_cross": 0.7400696370238062,
+    "boundary_time": 35.11,
+    "detected_before_boundary": true,
+    "alpha": 0.4,
+    "run": "0005_alpha_0.40"
+  },
+  {
+    "detector": "ewma",
+    "cross_time": 30.36,
+    "fired_after_fault": true,
+    "latency": 0.35999999999999943,
+    "false_alarm": false,
+    "margin_at_cross": 0.740121738098494,
+    "boundary_time": 35.11,
+    "detected_before_boundary": true,
+    "alpha": 0.4,
+    "run": "0005_alpha_0.40"
+  },
+  {
+    "detector": "ssm",
+    "cross_time": 31.79,
+    "fired_after_fault": true,
+    "latency": 1.7899999999999991,
+    "false_alarm": false,
+    "margin_at_cross": 0.8370478569138049,
+    "boundary_time": 35.11,
+    "detected_before_boundary": true,
+    "alpha": 0.4,
+    "run": "0005_alpha_0.40"
+  }
+]

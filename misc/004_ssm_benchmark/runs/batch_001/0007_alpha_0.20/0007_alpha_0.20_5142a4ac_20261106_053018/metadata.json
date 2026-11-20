@@ -1,0 +1,14 @@
+{
+    "version": "1.0",
+    "run_id": "0007_alpha_0.20_5142a4ac_20261106_053018",
+    "name": "0007_alpha_0.20",
+    "fingerprint": "5142a4acdc10",
+    "status": "complete",
+    "created_at": "2026-11-06 05:30:18",
+    "updated_at": "2026-11-06 05:30:19",
+    "tags": [
+        "eval",
+        "alpha_0.20"
+    ],
+    "failure_reason": null
+}

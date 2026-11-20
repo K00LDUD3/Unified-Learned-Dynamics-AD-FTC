@@ -1,0 +1,62 @@
+[
+  {
+    "detector": "tracking_error",
+    "cross_time": 30.04,
+    "fired_after_fault": true,
+    "latency": 0.03999999999999915,
+    "false_alarm": false,
+    "margin_at_cross": 0.7788032668731826,
+    "boundary_time": 35.04,
+    "detected_before_boundary": true,
+    "alpha": 0.3,
+    "run": "0006_alpha_0.30"
+  },
+  {
+    "detector": "model_residual",
+    "cross_time": 30.29,
+    "fired_after_fault": true,
+    "latency": 0.28999999999999915,
+    "false_alarm": false,
+    "margin_at_cross": 0.7416811579964236,
+    "boundary_time": 35.04,
+    "detected_before_boundary": true,
+    "alpha": 0.3,
+    "run": "0006_alpha_0.30"
+  },
+  {
+    "detector": "cusum",
+    "cross_time": 30.3,
+    "fired_after_fault": true,
+    "latency": 0.3000000000000007,
+    "false_alarm": false,
+    "margin_at_cross": 0.7412904810069886,
+    "boundary_time": 35.04,
+    "detected_before_boundary": true,
+    "alpha": 0.3,
+    "run": "0006_alpha_0.30"
+  },
+  {
+    "detector": "ewma",
+    "cross_time": 30.32,
+    "fired_after_fault": true,
+    "latency": 0.3200000000000003,
+    "false_alarm": false,
+    "margin_at_cross": 0.7407532661273558,
+    "boundary_time": 35.04,
+    "detected_before_boundary": true,
+    "alpha": 0.3,
+    "run": "0006_alpha_0.30"
+  },
+  {
+    "detector": "ssm",
+    "cross_time": 31.76,
+    "fired_after_fault": true,
+    "latency": 1.7600000000000016,
+    "false_alarm": false,
+    "margin_at_cross": 0.835567080107951,
+    "boundary_time": 35.04,
+    "detected_before_boundary": true,
+    "alpha": 0.3,
+    "run": "0006_alpha_0.30"
+  }
+]

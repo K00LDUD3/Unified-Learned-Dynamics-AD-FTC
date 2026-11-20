@@ -1,0 +1,76 @@
+{
+    "name": "early_detect_ams",
+    "seed": 42,
+    "output_dir": "runs",
+    "plant": {
+        "name": "hopf_normal_form",
+        "mu": 0.5,
+        "omega": 1.0,
+        "dt": 0.01,
+        "t_end": 60.0,
+        "x0": [
+            0.1,
+            0.1
+        ]
+    },
+    "reference": {
+        "freq": 1.0,
+        "demand_fraction_of_healthy_ams": 0.55,
+        "radius_override": null
+    },
+    "actuators": {
+        "n_actuators": 3,
+        "angles_deg": [
+            0.0,
+            120.0,
+            240.0
+        ],
+        "u_max": 1.0,
+        "degrade_channel": 0,
+        "alpha_healthy": 1.0,
+        "alpha_sweep": [
+            1.0,
+            0.85,
+            0.7,
+            0.55,
+            0.4,
+            0.3,
+            0.2
+        ]
+    },
+    "controller": {
+        "kp": 5.0,
+        "allocation": "pinv",
+        "use_feedforward": true
+    },
+    "fault": {
+        "t_fault": 30.0,
+        "ramp_time": 0.0
+    },
+    "model": {
+        "name": "ssm_autoencoder",
+        "latent_dim": 2,
+        "hidden_dim": 64,
+        "n_hidden": 2,
+        "batch_size": 256,
+        "lr": 0.001,
+        "epochs": 60,
+        "device": "cuda"
+    },
+    "detection": {
+        "settle_time": 5.0,
+        "window": 50,
+        "threshold_sigma": 4.0,
+        "min_persist": 3,
+        "cusum_drift_k": 1.0,
+        "ewma_lambda": 0.2,
+        "ewma_L": 4.0,
+        "detectors": [
+            "tracking_error",
+            "model_residual",
+            "cusum",
+            "ewma",
+            "ssm"
+        ]
+    }
+}

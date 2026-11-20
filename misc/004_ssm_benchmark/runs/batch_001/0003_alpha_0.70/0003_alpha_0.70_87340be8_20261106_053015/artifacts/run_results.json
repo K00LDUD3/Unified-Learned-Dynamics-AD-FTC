@@ -1,0 +1,62 @@
+[
+  {
+    "detector": "tracking_error",
+    "cross_time": 0.5,
+    "fired_after_fault": false,
+    "latency": null,
+    "false_alarm": true,
+    "margin_at_cross": 0.9102829163818663,
+    "boundary_time": 0.0,
+    "detected_before_boundary": false,
+    "alpha": 0.7,
+    "run": "0003_alpha_0.70"
+  },
+  {
+    "detector": "model_residual",
+    "cross_time": null,
+    "fired_after_fault": false,
+    "latency": null,
+    "false_alarm": false,
+    "margin_at_cross": null,
+    "boundary_time": 0.0,
+    "detected_before_boundary": false,
+    "alpha": 0.7,
+    "run": "0003_alpha_0.70"
+  },
+  {
+    "detector": "cusum",
+    "cross_time": 0.5,
+    "fired_after_fault": false,
+    "latency": null,
+    "false_alarm": true,
+    "margin_at_cross": 0.9102829163818663,
+    "boundary_time": 0.0,
+    "detected_before_boundary": false,
+    "alpha": 0.7,
+    "run": "0003_alpha_0.70"
+  },
+  {
+    "detector": "ewma",
+    "cross_time": null,
+    "fired_after_fault": false,
+    "latency": null,
+    "false_alarm": false,
+    "margin_at_cross": null,
+    "boundary_time": 0.0,
+    "detected_before_boundary": false,
+    "alpha": 0.7,
+    "run": "0003_alpha_0.70"
+  },
+  {
+    "detector": "ssm",
+    "cross_time": 0.5,
+    "fired_after_fault": false,
+    "latency": null,
+    "false_alarm": true,
+    "margin_at_cross": 0.9102829163818663,
+    "boundary_time": 0.0,
+    "detected_before_boundary": false,
+    "alpha": 0.7,
+    "run": "0003_alpha_0.70"
+  }
+]
